@@ -11,3 +11,4 @@ const config = {
 
 const app = firebase.initializeApp(config);
 // returns an instance of firebase application
+Y;
