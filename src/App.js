@@ -13,7 +13,7 @@ function App() {
       <Route>
         <Route
           exact
-          path="/signin"
+          path="/signin/*"
           element={
             <PublicRoute>
               <Route path="/" element={<SignIn />} />
