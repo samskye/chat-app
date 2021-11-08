@@ -7,7 +7,6 @@ import RoomItem from './RoomItem';
 const ChatRoomList = ({ aboveElHeight }) => {
   const [rooms, setRooms] = useRooms();
   const location = useLocation();
-
   return (
     <Nav
       appearance="subtle"
