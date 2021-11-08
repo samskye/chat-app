@@ -23,7 +23,7 @@ const EditableInput = ({
     }
 
     if (trimmed !== initialValue) {
-      await onSave();
+      await onSave(trimmed);
     }
     setIsEditable(false);
   };
